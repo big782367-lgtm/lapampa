@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { CallBar } from "@/components/call-bar";
 import { ReservationForm } from "@/components/reservation-form";
 import { business, telHref, waHref, menu, reviews } from "@/lib/business";
-import hero from "@/assets/hero-terrace.jpg";
+import heroAsset from "@/assets/la-pampa-terrace.jpg.asset.json";
 import breakfast from "@/assets/breakfast-spread.jpg";
 import crepe from "@/assets/crepe.jpg";
 
