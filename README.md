@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9d7480b-b3f8-4aa8-bde6-5a84b8f0a1d5/deploy-status)](https://app.netlify.com/projects/sweet-tiramisu-a47041/deploys)
 # La Pampa Digital Growth
 
 Create a fully modern, professional, high-converting website for a local service business focused on generating inbound calls and messages and quote form submissions. Use a clean, trustworthy local-service design with strong CTAs, mobile-first layout, click-to-call functionality, visible phone number, and SEO-optimized structure:
