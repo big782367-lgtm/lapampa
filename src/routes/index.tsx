@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { CallBar } from "@/components/call-bar";
 import { ReservationForm } from "@/components/reservation-form";
 import { business, telHref, waHref, menu, reviews } from "@/lib/business";
-import hero from "@/assets/hero-terrace.jpg";
+import heroAsset from "@/assets/la-pampa-terrace.jpg.asset.json";
 import breakfast from "@/assets/breakfast-spread.jpg";
 import crepe from "@/assets/crepe.jpg";
 
@@ -63,13 +63,14 @@ function Home() {
         {/* Hero */}
         <section className="relative isolate">
           <img
-            src={hero}
-            alt="Terrasse du restaurant La Pampa au coucher du soleil, vue sur la mer à Beni Khiar"
-            width={1920}
-            height={1088}
-            className="absolute inset-0 -z-10 h-full w-full object-cover"
+            src={heroAsset.url}
+            alt="Terrasse en bois de La Pampa avec chaises hautes face à la mer turquoise, Beni Khiar"
+            width={768}
+            height={960}
+            className="absolute inset-0 -z-10 h-full w-full object-cover object-center"
           />
-          <div className="absolute inset-0 -z-10 bg-sea-deep/65" />
+          <div className="absolute inset-0 -z-10 bg-sea-deep/60" />
+
           <div className="mx-auto max-w-6xl px-4 py-20 text-primary-foreground sm:py-28">
             <p className="eyebrow text-accent">Beni Khiar · Bord de mer</p>
             <h1 className="mt-4 max-w-2xl font-display text-4xl leading-tight sm:text-6xl">
