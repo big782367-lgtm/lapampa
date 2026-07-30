@@ -4,7 +4,7 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
-  server: {
-    preset: 'netlify',
+  nitro: {
+    preset: "netlify",
   },
 });
